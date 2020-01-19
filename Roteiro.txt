@@ -1,0 +1,14 @@
+bibliotecas:
+    -> react-native-maps
+        Docs: https://github.com/react-native-community/react-native-maps
+        Extras:
+            Adicionar permissão no AndroidManifest
+            <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+       
+    -> @react-native-community/geolocation
+
+    -> (COMPONENTE INPUT) react-native-google-places-autocomplete
+        ***Ativar as APIs do google elo endereço:
+        https://cloud.google.com/maps-platform/places/?hl=pt&utm_source=google&utm_medium=cpc&utm_campaign=FY18-Q2-global-demandgen-paidsearchonnetworkhouseads-cs-maps_contactsal_saf&utm_content=text-ad-none-none-DEV_c-CRE_351280161270-ADGP_Hybrid+%7C+AW+SEM+%7C+BKWS+~+Places+%7C+BMM+%7C+Google+Maps+Places+API-KWID_43700044401406057-kwd-18857163995-userloc_1001547&utm_term=KW_%2Bgoogle%20%2Bplaces-ST_%2Bgoogle+%2Bplaces&gclid=EAIaIQobChMIqYrKqdOO5wIVTYGRCh3BgA48EAAYASAAEgJXZvD_BwE
+
+    -> react-native-maps-directions (criar pasta do componente Directions)
